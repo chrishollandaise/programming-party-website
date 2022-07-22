@@ -7,7 +7,7 @@ import {
 } from 'react-router-dom';
 import Home from './components/pages/home';
 import NavBar from './components/NavBar/NavBar';
-import ErrorPage from './components/ErrorPage/ErrorPage';
+import ErrorPage from './components/pages/ErrorPage/ErrorPage';
 import Projects from './components/pages/Projects/Projects';
 import { reducer, initialState } from './reducers/userReducer';
 
