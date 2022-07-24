@@ -6,6 +6,7 @@ import {
   BrowserRouter, Route, Routes, useNavigate,
 } from 'react-router-dom';
 import Home from './components/pages/home';
+import AboutPage from './components/pages/About';
 import NavBar from './components/NavBar/NavBar';
 import ErrorPage from './components/pages/ErrorPage/ErrorPage';
 import Projects from './components/pages/Projects/Projects';
@@ -32,6 +33,7 @@ const Routing = () => {
     <Routes className="content">
       <Route exact path="/" element={<Home />} />
       <Route path="/projects" element={<Projects />} />
+      <Route path="/about" element={<AboutPage />} />
       <Route path="*" element={<ErrorPage />} />
     </Routes>
   );
